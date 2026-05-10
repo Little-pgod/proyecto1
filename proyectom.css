@@ -443,14 +443,19 @@ body::before {
 
   .page-container {
     gap: 15px;
+    padding: 20px 10px;
   }
-  
+
   .card-section {
-    gap: 20px;
+    gap: 15px;
+  }
+
+  .card-wrapper {
+    width: min(250px, 100%);
   }
 
   .heart-button img {
-    width: 80px;
+    width: 60px;
   }
 }
 

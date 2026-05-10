@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz día de la madre</title>
+  <link rel="stylesheet" href="proyectom.CSS">
+</head>
+<body>
+  <div class="page-container">
+    <h1 class="title">Te amo, feliz día!</h1>
+    <div class="card-section">
+      <div class="card-wrapper">
+        <img class="card-image" src="imagenm/imgen2m.png" alt="Dino" />
+      </div>
+
+      <button id="heartButton" class="heart-button" aria-label="Mostrar mensaje">
+        <img src="imagenm/imgen1m.png" alt="Corazón botón" />
+      </button>
+    </div>
+
+    <div id="messageModal" class="message-modal hidden" role="dialog" aria-modal="true">
+      <div class="message-window">
+        <div class="window-hearts"></div>
+        <p>Feliz día de la madre para ti, la madre de dino, y también la futura madre de nuestros hijos</p>
+      </div>
+    </div>
+
+    <div id="heartsContainer" class="hearts-container"></div>
+    <div class="signature">Para mi singularidad</div>
+  </div>
+
+  <script src="proyectom.js"></script>
+</body>
+</html>

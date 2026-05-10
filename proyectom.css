@@ -420,52 +420,15 @@ body::before {
   .message-window {
     padding: 26px 24px;
   }
-
-  .title {
-    font-size: 2rem;
-    margin-bottom: 15px;
-  }
-
-  .page-container {
-    gap: 20px;
-  }
 }
 
 @media (max-width: 520px) {
-  .message-window p {
-    font-size: 1.5rem;
-  }
-
-  .title {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-  }
-
-  .page-container {
-    gap: 15px;
-    padding: 18px 10px;
-  }
-
   .card-section {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-    width: 100%;
-    max-width: 360px;
   }
 
-  .card-wrapper {
-    width: min(240px, 100%);
-  }
-
-  .heart-button {
-    width: auto;
-    height: auto;
-  }
-
-  .heart-button img {
-    width: 55px;
+  .message-window p {
+    font-size: 1.5rem;
   }
 }
 

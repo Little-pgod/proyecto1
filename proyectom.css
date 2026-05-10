@@ -432,10 +432,6 @@ body::before {
 }
 
 @media (max-width: 520px) {
-  .card-section {
-    flex-direction: column;
-  }
-
   .message-window p {
     font-size: 1.5rem;
   }
@@ -447,6 +443,14 @@ body::before {
 
   .page-container {
     gap: 15px;
+  }
+  
+  .card-section {
+    gap: 20px;
+  }
+
+  .heart-button img {
+    width: 80px;
   }
 }
 
